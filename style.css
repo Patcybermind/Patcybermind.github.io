@@ -1,9 +1,16 @@
 body {
-  background-color: #0f0f0f; /* Hacker grey/green color */
+    background-color: #FF0000;
 }
-* {
-  color: green;
-}html {
-  height: 100%;
-  width: 100%;
+.button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px; /* Add padding around the text */
+    background-color: #FFFF00;
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Adjust line-height to vertically center text */
+    font-size: 20px;
+    text-decoration: none;
 }
